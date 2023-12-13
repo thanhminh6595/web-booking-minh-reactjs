@@ -1,0 +1,62 @@
+.homeForm-controls > div {
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.homeForm-controls {
+  background-color: #003580;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  padding-block: 50px;
+}
+
+.homeForm-controls h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.homeForm-controls p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.homeForm-controls form {
+  display: flex;
+  justify-content: center;
+  max-width: 450px;
+  margin-inline: auto;
+  height: 50px;
+}
+
+.homeForm-controls input {
+  width: 450px;
+  margin-right: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.homeForm-controls input:focus {
+  outline: none;
+}
+
+/* --------------BUTTON---------------- */
+
+.homeForm-controls .button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0071c2;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.homeForm-controls .button:hover {
+  background-color: #198fe3;
+}
+
+.homeForm-controls .button:active {
+  background-color: #0071c2;
+}

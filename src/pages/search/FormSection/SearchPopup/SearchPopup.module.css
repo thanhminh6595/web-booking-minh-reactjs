@@ -1,0 +1,94 @@
+.searchPopup {
+  background-color: #febb02;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.searchPopup h1 {
+  color: #464545;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.form-control__destination,
+.form-control__date {
+  margin-bottom: 20px;
+}
+
+.form-control__destination label,
+.form-control__date label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-control__destination input,
+.form-control__date input {
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-control__destination input:focus,
+.form-control__date input:focus {
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-control__destination ::placeholder,
+.form-control__date ::placeholder {
+  font-size: 16px;
+  color: #343434;
+}
+
+.form-control__option > div:first-child {
+  display: block;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.form-control label {
+  color: #6b6a6a;
+}
+
+.form-control input {
+  border: none;
+  width: 25%;
+  padding: 5px;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-controls {
+  margin-bottom: 40px;
+}
+
+.searchPopup button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0071c2;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+.searchPopup button:hover {
+  background-color: #198fe3;
+}
+
+.searchPopup button:active {
+  background-color: #0071c2;
+}

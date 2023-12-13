@@ -1,0 +1,127 @@
+.searchList-controls {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.searchList-controls img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.searchList-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchList-control__content h2 {
+  color: #198fe3;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content-distance,
+.content-tag,
+.searchList-control__content span,
+.content-description,
+.content-type,
+.content-cancel p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.searchList-control__content .content-distance {
+  color: 15px;
+}
+
+.searchList-control__content span {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: green;
+  border-radius: 7px;
+  width: fit-content;
+}
+
+.searchList-control__content .content-description {
+  font-weight: bold;
+}
+
+.content-cancel p {
+  color: green;
+  font-weight: 100;
+}
+
+.content-cancel p:first-child {
+  font-weight: bold;
+}
+
+.searchList-control__addInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.searchList-control__addInfo > div:first-child {
+  height: 100%;
+}
+
+.addInfo-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addInfo-top p {
+  font-weight: bold;
+}
+
+.addInfo-top span {
+  background-color: #030d84;
+  height: fit-content;
+  padding: 5px;
+  color: #fff;
+}
+
+.addInfo-bottom {
+  flex-shrink: 0;
+}
+
+.addInfo-bottom h2 {
+  font-size: 28px;
+}
+
+.addInfo-bottom p {
+  color: #868383;
+  font-size: 15px;
+}
+
+.addInfo-bottom h2,
+.addInfo-bottom p {
+  margin-bottom: 15px;
+}
+
+.addInfo-bottom button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  background-color: #0071c2;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addInfo-bottom button:hover {
+  background-color: #198fe3;
+}
+
+.addInfo-bottom button:active {
+  background-color: #0071c2;
+}

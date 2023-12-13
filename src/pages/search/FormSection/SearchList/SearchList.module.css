@@ -1,0 +1,4 @@
+.searchList {
+  display: flex;
+  flex-direction: column;
+}

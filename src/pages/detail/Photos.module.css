@@ -1,0 +1,11 @@
+.photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
